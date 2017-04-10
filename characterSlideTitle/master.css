@@ -1,0 +1,181 @@
+:root {
+  /* CSS Varibles are holding a few values */
+  --bkg-color: black;
+  --txt-color: white;
+  --animation-arc: linear;
+
+  background-color: var(--bkg-color);
+}
+.titleContainer {
+  /* Set container to be full height of display and be flex */
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.letters {
+  /* Center text in the center of the screen */
+  justify-content: center;
+  vertical-align: middle;
+  margin: auto;
+}
+/* Style letters seperately */
+.letters > span {
+  font-size: 4em;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: var(--bkg-color);
+  text-shadow: 0px 0px 10px var(--txt-color);
+  position: fixed;
+}
+/* Keep off screen till animation */
+#l2, #l3, #l4, #l5, #l6, #l7 {
+  margin-left: 1000px;
+}
+#l1 {
+  animation-name: l1Letter;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+#l2 {
+  animation-name: l2Letter;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 800ms;
+  animation-timing-function: var(--animation-arc);
+}
+#l3 {
+  animation-name: l3Letter;
+  animation-duration: 1.8s;
+  animation-fill-mode: forwards;
+  animation-delay: 1000ms;
+  animation-timing-function: var(--animation-arc);
+}
+#l4 {
+  animation-name: l4Letter;
+  animation-duration: 1.6s;
+  animation-fill-mode: forwards;
+  animation-delay: 1200ms;
+  animation-timing-function: var(--animation-arc);
+}
+#l5 {
+  animation-name: l5Letter;
+  animation-duration: 1.4s;
+  animation-fill-mode: forwards;
+  animation-delay: 1400ms;
+  animation-timing-function: var(--animation-arc);
+}
+#l6 {
+  animation-name: l6Letter;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+  animation-delay: 1600ms;
+  animation-timing-function: var(--animation-arc);
+}
+#l7 {
+  animation-name: l7Letter;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1800ms;
+  animation-timing-function: var(--animation-arc);
+}
+.titleContainer {
+  animation-name: flash;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-delay: 2750ms;
+  animation-timing-function: var(--animation-arc);
+}
+
+/* Characters Animations */
+
+/* First Char comes in from right */
+@keyframes l1Letter {
+  0% {
+    margin-left: 1000px;
+  }
+  100% {
+    margin-left:-200px;
+  }
+}
+
+/* Other Char comes in from left*/
+@keyframes l2Letter {
+  0% {
+    margin-left: -1000px;
+  }
+  43% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left:-150px;
+  }
+}
+@keyframes l3Letter {
+  0% {
+    margin-left: -1000px;
+  }
+  44% {
+    margin-left: 250px;
+  }
+  100% {
+    margin-left:-100px;
+  }
+}
+@keyframes l4Letter {
+  0% {
+    margin-left: -1000px;
+  }
+  46% {
+    margin-left: 200px;
+  }
+  100% {
+    margin-left:-50px;
+  }
+}
+@keyframes l5Letter {
+  0% {
+    margin-left: -1000px;
+  }
+  47% {
+    margin-left: 160px;
+  }
+  100% {
+    margin-left:0px;
+  }
+}
+@keyframes l6Letter {
+  0% {
+    margin-left: -1000px;
+  }
+  49% {
+    margin-left: 130px;
+  }
+  100% {
+    margin-left:50px;
+  }
+}
+@keyframes l7Letter {
+  0% {
+    margin-left: -1000px;
+  }
+  50% {
+    margin-left: 110px;
+  }
+  100% {
+    margin-left:100px;
+  }
+}
+/* On last char appear flash screen */
+@keyframes flash {
+  0% {
+    background-color: var(--txt-color);
+    color: var(--txt-color);
+  }
+  3% {
+    background-color: var(--bkg-color);
+  }
+  100% {
+    color: var(--bkg-color);
+  }
+}
