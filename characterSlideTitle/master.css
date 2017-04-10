@@ -179,3 +179,14 @@
     color: var(--bkg-color);
   }
 }
+
+/* Footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: green;
+}
+footer a {
+  color: white;
+}
