@@ -1,0 +1,27 @@
+{
+  "name": "cssjsanimationprojects",
+  "version": "1.0.1",
+  "description": "Just a repo for some experiments",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonLaDuke/CSSJSAnimationProjects.git"
+  },
+  "keywords": [
+    "CSS",
+    "JS",
+    "Experiments"
+  ],
+  "author": "Brandon LaDuke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrandonLaDuke/CSSJSAnimationProjects/issues"
+  },
+  "homepage": "https://github.com/BrandonLaDuke/CSSJSAnimationProjects#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
