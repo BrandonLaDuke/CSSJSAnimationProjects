@@ -2,7 +2,7 @@
   "name": "cssjsanimationprojects",
   "version": "1.0.1",
   "description": "Just a repo for some experiments",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/BrandonLaDuke/CSSJSAnimationProjects#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
   }
 }

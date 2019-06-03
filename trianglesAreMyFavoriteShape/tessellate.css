@@ -1,4 +1,30 @@
 body {
   background: black;
-  color: #fff;
+  color: #0f0;
+}
+.hero {
+  margin: 30px;
+  width: 100%;
+  height: 500px;
+  background-color: darkblue;
+  position: relative;
+  padding: 10px;
+  display: flex;
+}
+.triangle {
+  position: relative;
+  width: 348px;
+  height: 150px;
+  background-color: lightblue;
+  margin: auto;
+  clip-path: polygon(15% 0%, 0% 84%, 100% 92%);
+}
+.text {
+  color: black;
+  padding: 30px;
+  padding-left: 35px;
+}
+.h2 {
+  margin: 0;
+
 }
