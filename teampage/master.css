@@ -33,6 +33,13 @@ section {
 .usercard__img:hover {
   filter: grayscale(0);
 }
+.fl-right {
+  float: right;
+}
+.fl-right > .nav__icon {
+  background-color: darkred;
+  color: #fff;
+}
 .usercard__lightbox {
   display: none;
   position: fixed;
@@ -41,7 +48,8 @@ section {
   margin: 10%;
   width: 80%;
   padding: 20px;
-  background-color: aqua;
+  background-color: white;
+  box-shadow: 2px 2px 2em #00000099;
   border-radius: 20px;
 }
 .usercard__lightbox__bio {
@@ -69,4 +77,10 @@ section {
   display: block;
   position: fixed;
   z-index: 100;
+}
+
+footer {
+  text-align: center;
+  width: 80%;
+  margin: 50px 10% auto 10%;
 }
