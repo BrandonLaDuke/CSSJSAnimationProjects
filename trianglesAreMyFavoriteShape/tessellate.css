@@ -15,12 +15,12 @@ body {
   position: relative;
   width: 348px;
   height: 150px;
-  background-color: lightblue;
+  background-color: red;
   margin: auto;
   clip-path: polygon(15% 0%, 0% 84%, 100% 92%);
 }
 .text {
-  color: black;
+  color: white;
   padding: 30px;
   padding-left: 35px;
 }

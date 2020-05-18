@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team Cards</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+    <h1>Leadership</h1>
+    <section>
+      <div class="container">
+        <div class="usercard">
+          <a onclick="openBio(1)">
+            <img class="usercard__img" src="eryn.png" alt="">
+          </a>
+          <div id="lightbox__1" class="usercard__lightbox">
+            <a onclick="closeBio()"><i class="material-icons nav__icon">close</i></a>
+            <h2 class="usercard__lightbox__name">Eryn Adams</h2>
+            <div class="usercard__lightbox__bio">
+              <h3>Bio</h3>
+              <p>Eryn Adams is a 38-year-old personal trainer who enjoys worship, tennis and eating out. She is friendly and reliable, but can also be very rude and a bit moody.</p>
+              <p>She is an American Christian who defines herself as bisexual. She finished school and then left academia. She is obsessed with jazz.</p>
+              <p>Physically, Eryn is in good shape. She is average-height with olive skin, brown hair and green eyes. She has a tattoo of a trombone on her left shoulder.</p>
+              <p>She grew up in an upper class neighbourhood. After her father died when she was young, she was raised by her mother</p>
+              <p>She is currently married to Etta Eli Williamson. Etta is the same age as her and works as a management consultant.</p>
+              <p>Eryn has three children with 2 two different partners: wife Etta and ex-girlfriend Kelis: Trevor aged 2, Charlie aged 5 and Hudson aged 15.</p>
+              <p>Eryn's best friend is a personal trainer called Antony Palmer. They get on well most of the time. She also hangs around with a personal trainer called Francis Davies. They enjoy spreading fake news on Facebook together.</p>
+            </div>
+            <a onclick="openBio(3)"><i class="material-icons nav__icon">keyboard_arrow_left</i></a>
+            <a onclick="openBio(2)"><i class="material-icons nav__icon">keyboard_arrow_right</i></a>
+          </div>
+        </div>
+
+        <div class="usercard">
+          <a onclick="openBio(2)">
+            <img class="usercard__img" src="senalda.png" alt="">
+          </a>
+          <div id="lightbox__2" class="usercard__lightbox hidden">
+            <a onclick="closeBio()"><i class="material-icons nav__icon">close</i></a>
+            <h2 class="usercard__lightbox__name">Senalda Brooks</h2>
+            <div class="usercard__lightbox__bio">
+              <h3>Bio</h3>
+              <p>Senalda Brooks is a 18-year-old teenager who enjoys hockey, recycling and competitive dog grooming. She is kind and reliable, but can also be very lazy and a bit moody.</p>
+              <p>She is American who defines herself as gay. She is currently at school. She has a severe phobia of bees, and is obsessed with organic vegetables.</p>
+              <p>Physically, Senalda is in good shape. She is very short with olive skin, brown hair and brown eyes.</p>
+              <p>She grew up in an upper class neighbourhood. After her mother died when she was young, she was raised by her father.</p>
+              <p>Senalda goes to Springfield School, where her favourite subjects are business studies, maths, philosophy and politics and economics. She loves her teacher Miss Hartley but hates Ms Ashton whose interests include handing out extra homework.</p>
+              <p>She is currently in a relationship with Joel Loretta Stevens. Joel is 13 years older than her and works as a lab assistant.</p>
+              <p>Senalda's best friend is a teenager called Violet Hawkins. They are inseparable. She also hangs around with Zane Kelly and Isa Hall. They enjoy relaxing together.</p>
+            </div>
+            <a onclick="openBio(1)"><i class="material-icons nav__icon">keyboard_arrow_left</i></a>
+            <a onclick="openBio(3)"><i class="material-icons nav__icon">keyboard_arrow_right</i></a>
+          </div>
+
+        </div>
+
+        <div class="usercard">
+          <a onclick="openBio(3)">
+            <img class="usercard__img" src="reed.png" alt="">
+          </a>
+          <div id="lightbox__3" class="usercard__lightbox hidden">
+            <a onclick="closeBio()"><i class="material-icons nav__icon">close</i></a>
+            <h2 class="usercard__lightbox__name">Euphemia Reed</h2>
+            <div class="usercard__lightbox__bio">
+              <h3>Bio</h3>
+              <p>Euphemia Reed is a 20-year-old admin assistant who enjoys eating out, playing card games and planking. She is intelligent and caring, but can also be very lazy and a bit untidy.</p>
+              <p>She is an American Christian who defines herself as straight. She finished school and then left academia.</p>
+              <p>Physically, Euphemia is not in great shape. She needs to lose quite a lot of weight. She is tall with walnut skin, black hair and brown eyes. She has asymmetrical ears.</p>
+              <p>She grew up in a working class neighbourhood. She was raised in a happy family home with two loving parents.</p>
+              <p>She is currently in a relationship with Jai Zane Sutton. Jai is 1 years older than her and works as a kitchen assistant.</p>
+              <p>Euphemia's best friend is an admin assistant called Sherry Parker. They have a very firey friendship. She also hangs around with Will Chandler and Leanne Bates. They enjoy camping together.</p>
+            </div>
+            <a onclick="openBio(2)"><i class="material-icons nav__icon">keyboard_arrow_left</i></a>
+            <a onclick="openBio(1)"><i class="material-icons nav__icon">keyboard_arrow_right</i></a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <footer>Names and bios were randomly generated by <a href="https://www.character-generator.org.uk">character-generator.org.uk</a>. An relations to people in real life is purly concidental. Avatars were randomly generated by <a href="https://avatarmaker.net/">avatarmaker.net</a>.
+    </footer>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
